@@ -18,15 +18,15 @@ try {
     $mail->isSMTP();                                           
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;                                   
-    $mail->Username   = 'ritheshjaston22@gmail.com';                    
-    $mail->Password   = 'ewmnstgalehfixtu';                             
+    $mail->Username   = '';    //USERNAME                
+    $mail->Password   = '';              //password               
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
     $mail->Port       = 465;                                    
 
   
-    $mail->setFrom('ritheshjaston22@gmail.com', 'RITHESH JASTON');
+    $mail->setFrom('someone@gmail.com', 'RITHESH JASTON');
 
-    $mail->addAddress('ritheshjaston.tech@gmail.com');    //to         
+    $mail->addAddress('someone.tech@gmail.com');    //to         
 
 
     $mail->isHTML(true);                                 
