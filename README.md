@@ -1,5 +1,5 @@
 # Right-Choice
-Career Guidance web Application
+Career Guidance web Application PHP 
 
 R IC H is a project which is based on career Guidance. Here admin manages all 
 the centre and student activities. A Career Guidance System where students can 
